@@ -9,7 +9,6 @@ programa
 				
 		escreva("\nChecagem de números primos \n")
 		escreva("\nInforme um número: ")
-		
 		leia(numero)
 		
 		enquanto(divisor<= numero/2)
@@ -19,7 +18,6 @@ programa
 				contador = contador+1
 				pare
 			}
-			
 			divisor = divisor + 1
 		}
 		
@@ -27,7 +25,6 @@ programa
 		{
 			escreva("\n"+numero+" é um número primo\n")
 		}
-		
 		senao
 		{
 			escreva("\n"+numero+" não é um número primo\n")
@@ -39,7 +36,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 488; 
+ * @POSICAO-CURSOR = 300; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
