@@ -13,7 +13,7 @@ programa
 		
 		enquanto(divisor<= numero/2)
 		{				
-			enquanto(divisor <= numero/2 e numero % divisor == 0)
+			se(numero % divisor == 0)
 			{
 				contador = contador+1
 				pare
@@ -36,7 +36,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 300; 
+ * @POSICAO-CURSOR = 267; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
